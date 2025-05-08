@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.yiran.ehchantjs.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "enchantjs.refmap.json",
+  "mixins": [
+    "EnchantmentMixin",
+    "EnchantmentHelperMixin",
+    "AnvilMenuMixin",
+    "CreativeModeTabsMixin",
+    "EnchantBookForEmeraldsMixin",
+    "EnchantCommandMixin",
+    "EnchantRandomlyFunctionMixin",
+    "ItemMixin",
+    "ItemStackMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
